@@ -2,8 +2,6 @@
 
 This tutorial demonstrates how to create a simple Rock Paper Scissors game using the Sequence Wallet and session keys for streamlined user interactions.
 
-![Screenshot of the game](./src/images/screenshot.png)
-
 ## About Session Keys
 
 Session keys are ephemeral private keys that can be generated and stored client-side, typically in a user's local storage. They provide a convenient and secure way for users to authorize specific actions in a decentralized application without requiring them to confirm each action through their primary wallet.
@@ -11,6 +9,8 @@ Session keys are ephemeral private keys that can be generated and stored client-
 By signing a message with their primary wallet (e.g., Sequence Wallet), users can authorize a session key to act on their behalf for a limited time or scope. Applications can then interpret signed messages from the session key as if they were coming directly from the user's wallet, streamlining the user experience.
 
 Session keys are particularly useful for applications that require frequent user interactions, as they help reduce the number of wallet confirmations needed, while still maintaining a secure and verifiable authentication process.
+
+![Screenshot of the game](./src/images/screenshot.png)
 
 ## Getting Started
 
