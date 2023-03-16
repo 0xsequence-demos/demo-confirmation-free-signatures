@@ -1,4 +1,4 @@
-# Wallet Confirmation free Rock Paper Scissors with Sequence
+# No-Wallet-Confirmation Rock Paper Scissors with Sequence
 
 This tutorial demonstrates how to create a simple Rock Paper Scissors game using the Sequence Wallet and session keys for streamlined user interactions.
 
